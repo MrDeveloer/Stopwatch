@@ -55,5 +55,7 @@ window.onload = function () {
         if (minutes> 9){
             appendMinutes.innerHTML="minutes";
         }
+	if (minutes > 9){
+		appendminutes.innerHTML="minutes";
 	}   
 }
